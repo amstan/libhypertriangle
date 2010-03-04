@@ -97,68 +97,128 @@
    <Parent id="28"/>
    <Parent id="2"/>
   </Object>
-  <Object type="SegmentAB" id="32">
+  <Object type="Angle" id="32">
+   <Parent id="31"/>
+   <Parent id="20"/>
+   <Parent id="14"/>
+  </Object>
+  <Object type="Rotation" id="33">
+   <Parent id="15"/>
+   <Parent id="20"/>
+   <Parent id="32"/>
+  </Object>
+  <Object type="Rotation" id="34">
+   <Parent id="26"/>
+   <Parent id="20"/>
+   <Parent id="32"/>
+  </Object>
+  <Object type="Rotation" id="35">
+   <Parent id="21"/>
+   <Parent id="20"/>
+   <Parent id="32"/>
+  </Object>
+  <Object type="Rotation" id="36">
+   <Parent id="30"/>
+   <Parent id="20"/>
+   <Parent id="32"/>
+  </Object>
+  <Object type="SegmentAB" id="37">
    <Parent id="14"/>
    <Parent id="31"/>
   </Object>
-  <Object type="RayAB" id="33">
+  <Object type="Rotation" id="38">
+   <Parent id="37"/>
+   <Parent id="20"/>
+   <Parent id="32"/>
+  </Object>
+  <Object type="RayAB" id="39">
    <Parent id="12"/>
    <Parent id="25"/>
   </Object>
-  <Object type="ConicLineIntersection" id="34">
+  <Object type="ConicLineIntersection" id="40">
    <Parent id="27"/>
-   <Parent id="33"/>
+   <Parent id="39"/>
    <Parent id="4"/>
   </Object>
-  <Object type="ConicLineIntersection" id="35">
+  <Object type="ConicLineIntersection" id="41">
    <Parent id="27"/>
-   <Parent id="33"/>
+   <Parent id="39"/>
    <Parent id="9"/>
   </Object>
-  <Object type="SegmentAB" id="36">
-   <Parent id="35"/>
+  <Object type="SegmentAB" id="42">
+   <Parent id="41"/>
    <Parent id="31"/>
   </Object>
-  <Object type="SegmentAB" id="37">
+  <Object type="SegmentAB" id="43">
    <Parent id="20"/>
-   <Parent id="35"/>
+   <Parent id="41"/>
   </Object>
-  <Object type="SegmentAB" id="38">
+  <Object type="Rotation" id="44">
+   <Parent id="43"/>
+   <Parent id="20"/>
+   <Parent id="32"/>
+  </Object>
+  <Object type="SegmentAB" id="45">
    <Parent id="25"/>
-   <Parent id="35"/>
+   <Parent id="41"/>
   </Object>
-  <Object type="SegmentAB" id="39">
+  <Object type="Rotation" id="46">
+   <Parent id="45"/>
+   <Parent id="20"/>
+   <Parent id="32"/>
+  </Object>
+  <Object type="Rotation" id="47">
+   <Parent id="42"/>
+   <Parent id="20"/>
+   <Parent id="32"/>
+  </Object>
+  <Object type="SegmentAB" id="48">
    <Parent id="31"/>
    <Parent id="20"/>
+  </Object>
+  <Object type="Rotation" id="49">
+   <Parent id="48"/>
+   <Parent id="20"/>
+   <Parent id="32"/>
   </Object>
  </Hierarchy>
  <View>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="49"/>
   <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="21"/>
   <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="28"/>
-  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="25"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="33"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="25"/>
   <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="27"/>
-  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="31"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="31"/>
   <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="22"/>
-  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="12"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="46"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="44"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="12"/>
   <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="35"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="32"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="41"/>
   <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="18"/>
-  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="37"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="43"/>
   <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="15"/>
-  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="38"/>
-  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="32"/>
-  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="34"/>
-  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="29"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="45"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="37"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="40"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="29"/>
   <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="16"/>
-  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="33"/>
-  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="30"/>
-  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="26"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="39"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="30"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="47"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="38"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="26"/>
   <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="23"/>
-  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="14"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="14"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="34"/>
   <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="24"/>
   <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="17"/>
-  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="20"/>
-  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="39"/>
-  <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="19"/>
   <Draw width="-1" namecalcer="none" point-style="Round" shown="true" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="36"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="20"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="48"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="19"/>
+  <Draw width="-1" namecalcer="none" point-style="Round" shown="false" style="SolidLine" color="#0000ff" font="DejaVu Sans,8,-1,5,50,0,0,0,0,0" object="42"/>
  </View>
 </KigDocument>
