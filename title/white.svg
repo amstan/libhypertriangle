@@ -7,15 +7,14 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="744.09448819"
-   height="1052.3622047"
+   width="418.94858"
+   height="48.798"
    id="svg2"
    version="1.1"
    inkscape:version="0.47pre4 r22446"
-   sodipodi:docname="drawing.svg">
+   sodipodi:docname="white.svg">
   <defs
      id="defs4">
     <inkscape:perspective
@@ -123,16 +122,6 @@
          style="stop-color:#070912;stop-opacity:0"
          offset="100%" />
     </radialGradient>
-    <radialGradient
-       r="1"
-       fy="0.89999998"
-       fx="0.1"
-       cy="0.89999998"
-       cx="0.1"
-       gradientUnits="userSpaceOnUse"
-       id="radialGradient2992"
-       xlink:href="#highlight-2"
-       inkscape:collect="always" />
     <inkscape:perspective
        id="perspective2998"
        inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
@@ -205,7 +194,8 @@
          result="result11"
          operator="out"
          id="feComposite3122-5"
-         in="result6" />
+         in="result6"
+         in2="result6" />
       <feFlood
          flood-color="rgb(55,170,199)"
          flood-opacity="0.24277456647398843"
@@ -224,7 +214,8 @@
          id="feComposite3128-6" />
       <feComposite
          id="feComposite3274"
-         in="SourceGraphic" />
+         in="SourceGraphic"
+         in2="fbSourceGraphic" />
       <feFlood
          id="feFlood3270"
          flood-color="rgb(255,255,255)"
@@ -245,9 +236,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.56"
-     inkscape:cx="356.10914"
-     inkscape:cy="855.80355"
+     inkscape:zoom="1.28"
+     inkscape:cx="-59.705139"
+     inkscape:cy="204.76075"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -255,7 +246,11 @@
      inkscape:window-height="994"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-global="false"
+     showguides="true"
+     inkscape:guide-bbox="true" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -269,91 +264,68 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="background"
-     sodipodi:insensitive="true">
-    <g
-       id="g2964"
-       transform="matrix(748.955,0,0,1062.884,-2.6025008,-4.0798185)">
-      <rect
-         id="rect2945"
-         style="fill:url(#background-5);fill-opacity:1"
-         height="1"
-         width="1"
-         x="0"
-         y="0" />
-      <rect
-         id="rect2947"
-         style="fill:url(#radialGradient2992)"
-         height="1"
-         width="1"
-         x="0"
-         y="0" />
-    </g>
-  </g>
-  <g
-     inkscape:label="inner glow"
+     inkscape:label="main"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(-75.985584,-32.82311)">
     <g
        id="g3172" />
     <g
-       transform="translate(-2.8152015,-164.90852)"
+       transform="translate(-60.412596,-292.73793)"
        id="text2816"
-       style="font-size:40px;font-style:normal;font-weight:normal;fill:#37abc8;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans;filter:url(#filter3116-9)">
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000066;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans">
       <path
          id="path2866"
-         style="font-size:72px;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#37abc8;font-family:Fontin Sans;-inkscape-font-specification:Fontin Sans Bold"
+         style="font-size:72px;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000066;fill-opacity:1;font-family:Fontin Sans;-inkscape-font-specification:Fontin Sans Bold"
          d="m 178.59018,325.56104 -10.368,0 1.008,7.416 0,12.528 -22.464,0 0,-19.944 -10.368,0 1.008,7.416 0,40.68 10.152,0 -0.792,-6.192 0,-14.112 22.464,0 0,20.304 10.152,0 -0.792,-6.192 0,-41.904" />
       <path
          id="path2868"
-         style="font-size:54px;fill:#37abc8"
+         style="font-size:54px;fill:#000066;fill-opacity:1"
          d="m 204.17718,357.51104 11.07,-19.926 -7.02,0 -6.318,12.312 -0.702,2.106 -0.702,-2.106 -6.372,-12.312 -8.586,0 3.348,4.59 8.262,15.876 0,15.606 7.614,0 -0.594,-4.644 0,-11.502" />
       <path
          id="path2870"
-         style="font-size:54px;fill:#37abc8"
+         style="font-size:54px;fill:#000066;fill-opacity:1"
          d="m 219.77137,337.58504 0.756,5.562 0,30.51 7.614,0 -0.594,-4.644 0,-8.1 1.566,0 c 8.42399,0 14.58,-5.67 14.58,-12.096 0,-7.66799 -6.26401,-11.232 -12.744,-11.232 l -11.178,0 m 7.776,17.928 0,-12.69 2.43,0 c 3.40199,0 6.426,1.89001 6.426,5.994 0,3.834 -3.02401,6.696 -6.426,6.696 l -2.43,0" />
       <path
          id="path2872"
-         style="font-size:54px;fill:#37abc8"
+         style="font-size:54px;fill:#000066;fill-opacity:1"
          d="m 250.58596,373.65704 19.278,0 1.35,-5.346 -13.608,0 0,-10.476 10.044,0 1.35,-5.346 -11.394,0 0,-9.558 12.906,0 0,-5.346 -20.682,0 0.756,5.562 0,30.51" />
       <path
          id="path2874"
-         style="font-size:54px;fill:#37abc8"
+         style="font-size:54px;fill:#000066;fill-opacity:1"
          d="m 305.65331,373.65704 -11.178,-14.31 c 4.04999,-2.05199 6.804,-6.534 6.804,-10.53 0,-7.66799 -6.26401,-11.232 -12.744,-11.232 l -11.178,0 0.756,5.562 0,30.51 7.614,0 -0.594,-4.644 0,-8.1 2.754,0 8.964,12.744 8.802,0 m -20.52,-17.874 0,-13.23 2.43,0 c 3.40199,0 6.426,2.16001 6.426,6.264 0,3.834 -3.02401,6.966 -6.426,6.966 l -2.43,0" />
       <path
          id="path2876"
-         style="font-size:72px;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#37abc8;font-family:Fontin Sans;-inkscape-font-specification:Fontin Sans Bold"
+         style="font-size:72px;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000066;fill-opacity:1;font-family:Fontin Sans;-inkscape-font-specification:Fontin Sans Bold"
          d="m 305.57062,332.83304 15.12,0 0,40.824 10.152,0 -0.792,-6.192 0,-34.632 15.552,0 0,-7.272 -40.032,0 0,7.272" />
       <path
          id="path2878"
-         style="font-size:54px;fill:#37abc8"
+         style="font-size:54px;fill:#000066;fill-opacity:1"
          d="m 378.42674,373.65704 -11.178,-14.31 c 4.05,-2.05199 6.804,-6.534 6.804,-10.53 0,-7.66799 -6.264,-11.232 -12.744,-11.232 l -11.178,0 0.756,5.562 0,30.51 7.614,0 -0.594,-4.644 0,-8.1 2.754,0 8.964,12.744 8.802,0 m -20.52,-17.874 0,-13.23 2.43,0 c 3.402,0 6.426,2.16001 6.426,6.264 0,3.834 -3.024,6.966 -6.426,6.966 l -2.43,0" />
       <path
          id="path2880"
-         style="font-size:54px;fill:#37abc8"
+         style="font-size:54px;fill:#000066;fill-opacity:1"
          d="m 390.65606,337.58504 -7.776,0 0.756,5.562 0,30.51 7.614,0 -0.594,-4.644 0,-31.428" />
       <path
          id="path2882"
-         style="font-size:54px;fill:#37abc8"
+         style="font-size:54px;fill:#000066;fill-opacity:1"
          d="m 395.52281,373.65704 6.48,0 3.186,-8.37 11.934,0 3.078,8.37 7.83,0 -3.024,-6.696 -11.016,-30.078 -4.59,1.134 -13.878,35.64 m 15.282,-24.354 0.54,-2.16 0.486,2.106 3.726,10.476 -8.64,0 3.888,-10.422" />
       <path
          id="path2884"
-         style="font-size:54px;fill:#37abc8"
+         style="font-size:54px;fill:#000066;fill-opacity:1"
          d="m 463.38984,337.58504 -6.966,0 0.756,5.562 0,18.63 -2.052,-3.348 -17.712,-20.844 -5.4,0 0.756,5.562 0,30.51 6.804,0 -0.594,-4.644 0,-19.224 2.106,3.402 18.198,20.466 4.482,0 -0.378,-4.644 0,-31.428" />
       <path
          id="path2886"
-         style="font-size:54px;fill:#37abc8"
+         style="font-size:54px;fill:#000066;fill-opacity:1"
          d="m 500.22796,341.41904 c -3.456,-3.07799 -7.506,-4.482 -12.366,-4.482 -10.09799,0 -17.928,8.04601 -17.928,19.44 0,11.93399 8.58601,17.982 17.496,17.982 7.07399,0 13.392,-2.376 13.392,-2.376 l -0.054,-15.876 -7.776,0 0.972,4.644 0,7.614 c 0,0 -2.7,0.702 -5.562,0.702 -5.61599,0 -11.178,-4.806 -11.178,-13.23 0,-7.23599 4.59001,-13.554 10.692,-13.554 3.186,0 6.426,1.24201 9.45,4.32 l 2.862,-5.184" />
       <path
          id="path2888"
-         style="font-size:54px;fill:#37abc8"
+         style="font-size:54px;fill:#000066;fill-opacity:1"
          d="m 508.77346,373.65704 19.44,0 1.35,-5.454 -13.77,0 0,-30.618 -7.776,0 0.756,5.562 0,30.51" />
       <path
          id="path2890"
-         style="font-size:54px;fill:#37abc8"
+         style="font-size:54px;fill:#000066;fill-opacity:1"
          d="m 534.71877,373.65704 19.278,0 1.35,-5.346 -13.608,0 0,-10.476 10.044,0 1.35,-5.346 -11.394,0 0,-9.558 12.906,0 0,-5.346 -20.682,0 0.756,5.562 0,30.51" />
     </g>
   </g>
