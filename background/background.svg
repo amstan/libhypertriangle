@@ -22,9 +22,9 @@
 <!-- <rect x="0%" width="15%" height="100%" y="0" style="fill:url(#shadeleft)"/> -->
 <!-- <rect x="85%" width="15%" height="100%" y="0" style="fill:url(#shaderight)"/> -->
 
-<!-- 
-<image xlink:href="../banner.png" x="15%" width="70%" y="0%" />
-<rect x="20%" y="19%" width="60%" height="100%" style="fill:white;fill-opacity:0.8"/>
+
+<!-- <image xlink:href="../raw/banner.png" x="15%" width="70%" y="0%" /> -->
+<!-- <rect x="20%" y="19%" width="60%" height="100%" style="fill:white;fill-opacity:0.8"/>
 
  -->
 
