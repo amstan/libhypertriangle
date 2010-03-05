@@ -11,7 +11,7 @@
 			stroke-linecap: round;
 		}
 		.foreground {
-			stroke: #000033;
+			stroke: #000066;
 		}
 	</style>
 	
