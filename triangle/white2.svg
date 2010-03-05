@@ -11,14 +11,14 @@
 	
 	<style>
 		svg {
-			background: #000;
+ 			background: #fff;
 		}
 		line {
 			stroke-width: 10;
 			stroke-linecap: round;
 		}
 		.foreground {
-			stroke: #ffffff;
+			stroke: #000066;
 		}
 		.background {
 			stroke: #00bbff;
