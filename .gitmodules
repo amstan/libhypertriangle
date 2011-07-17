@@ -1,0 +1,6 @@
+[submodule "lib/msp430/uart"]
+	path = lib/msp430/uart
+	url = git://gist.github.com/969447.git
+[submodule "lib/openCICAD"]
+	path = lib/openCICAD
+	url = git@github.com:amstan/openCICAD.git
