@@ -22,17 +22,20 @@
  
 int main(void)
 {
-    WDTCTL = WDTPW + WDTHOLD;                 // Stop watchdog timer
-    P1DIR |= 0x01;                            // Set P1.0 to output direction
- 
-    for (;;)
-    {
-        volatile unsigned int i;
- 
-        P1OUT ^= 0x01;                          // Toggle P1.0 using exclusive-OR
- 
-        i = 60000;                              // Delay
-        do (i--);
-        while (i != 0);
-    }
+	WDTCTL = WDTPW + WDTHOLD;                 // Stop watchdog timer
+	DCOCTL  = CALDCO_1MHZ;                    // Load the clock calibration
+	BCSCTL1 = CALBC1_1MHZ;
+	
+	P1DIR |= 0x01;                            // Set P1.0 to output direction
+	
+	for (;;)
+	{
+		volatile unsigned int i;
+		
+		P1OUT ^= 0x01;                          // Toggle P1.0 using exclusive-OR
+		
+		i = 60000;                              // Delay
+		do (i--);
+		while (i != 0);
+	}
 }
