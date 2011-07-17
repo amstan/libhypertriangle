@@ -398,7 +398,7 @@ def main():
         action = "store",
         type = 'int',
         help = "set baud rate, default %default",
-        default = 900
+        default = 19200
     )
 
     parser.add_option("--parity",
@@ -452,7 +452,7 @@ def main():
 1: escape non-printable characters, do newlines as unusual
 2: escape non-printable characters, newlines too
 3: hex dump everything""",
-        default = 3
+        default = 0
     )
 
     parser.add_option("--rts",
