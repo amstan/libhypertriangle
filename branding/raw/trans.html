@@ -1,0 +1,32 @@
+<html>
+<head><style type="text/css">
+#opacity {
+background-color: #000000;
+color: #FFFFFF;
+left: 0;
+position: absolute;
+top: 0;
+opacity:.50;filter: alpha(opacity=50); -moz-opacity: 0.5;
+
+width: expression(document.getElementById('ieopacity').clientWidth);
+height: expression(document.getElementById('ieopacity').clientHeight);
+}
+
+
+
+
+#ieopacity {
+left: 0;
+position: absolute;
+top: 0;
+z-index: 1;
+}
+</style></head>
+<body>
+<br>
+<div id="opacity">
+ t
+</div>
+<div id="ieopacity"><a href="javascript:alert(document.getElementById('ieopacity').clientWidth);">Some text and contents here...</div>
+</body> 
+</html>
