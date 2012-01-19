@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100%" height="100%"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+
+<polyline fill="none" points="1068,690 516,690 " style="stroke:rgb(99,99,99);stroke-width:2" />
+<polyline fill="none" points="713,622 910,554 " style="stroke:rgb(99,99,99);stroke-width:2" />
+<polyline fill="none" points="753,417 792,212 " style="stroke:rgb(99,99,99);stroke-width:2" />
+<polyline fill="none" points="516,690 792,212 " style="stroke:rgb(99,99,99);stroke-width:2" />
+<polyline fill="none" points="713,622 516,690 "  style="stroke:rgb(99,99,99);stroke-width:2"/>
+<polyline fill="none" points="792,212 1068,690 " style="stroke:rgb(99,99,99);stroke-width:2" />
+<polyline fill="none" points="910,554 1068,690 " style="stroke:rgb(99,99,99);stroke-width:2" />
+<polyline fill="none" points="753,417 910,554 " style="stroke:rgb(99,99,99);stroke-width:2" />
+<polyline fill="none" points="753,417 713,622 " style="stroke:rgb(99,99,99);stroke-width:2" />
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	
+	<style>
+		svg {
+<!-- 			background: #000000 -->
+		}
+		line {
+			stroke-width: 15;
+			stroke-linecap: round;
+		}
+		.foreground {
+			stroke: #000066;
+		}
+	</style>
+	
+	<g id="triangle" transform="translate(50,50)">		
+		<g class="foreground">
+			<line x1="552" y1="478" x2="0" y2="478"/>
+			<line x1="197" y1="410" x2="394" y2="342"/>
+			<line x1="237" y1="205" x2="276" y2="0"/>
+			<line x1="0" y1="478" x2="276" y2="0"/>
+			<line x1="197" y1="410" x2="0" y2="478"/>
+			<line x1="276" y1="0" x2="552" y2="478"/>
+			<line x1="394" y1="342" x2="552" y2="478"/>
+			<line x1="237" y1="205" x2="394" y2="342"/>
+			<line x1="237" y1="205" x2="197" y2="410"/>
+		</g>
+	</g>
+</svg> 
