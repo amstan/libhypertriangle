@@ -6,4 +6,4 @@
 	url = git@github.com:amstan/openCICAD.git
 [submodule "eagle/sparkfun"]
 	path = eagle/sparkfun
-	url = https://github.com/sparkfun/SparkFun-Eagle-Libraries
+	url = git@github.com:sparkfun/SparkFun-Eagle-Libraries.git
